@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
   <head>
@@ -22,14 +21,14 @@
           <h2 id="project_tagline"></h2>
 
         </header>
-    </div>
-    <div id="header_wrap" class="inner">
-    	<a href="presentations.html">presentations</a>
-    </div>	 	
+    </div> 	
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-       		
+	<h2>Presentations</h2>        
+	<h3>Spring Data Repositories - Part 1 </h3>
+	<a href="presentations/spring_data_part_1.html">Slides</a>
+	<a href="https://github.com/tuxdevelop/spring-data-repositories">Code</a> 
       </section>
     </div>
 
