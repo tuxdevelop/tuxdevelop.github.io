@@ -1,44 +1,114 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <meta charset="UTF-8"/>
-    <title>tuxdevelop.org</title>
-    <!-- bootstrap -->
-    <link rel="stylesheet" type="text/css"
-          href="./css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css"
-          href="./css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css"
-          href="./css/main.css"/>
+  <meta charset="UTF-8" />
+  <title>tuxdevelop.org</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="./css/main.css" />
 </head>
+
 <body>
-<div class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar navbar-default navbar-fixed-top">
     <div class="viewport">
-        <header class="navbar header--navbar desktop-only">
-            <div class="navbar-inner">
-                <div class="container-fluid">
-                    <div class="spring-logo--container">
-                        <a class="spring-logo" href="#"><span></span></a>
-                    </div>
-                    <div class="spring-logo--container">
-                        <a class="spring-boot-logo" href="#"><span></span></a>
-                    </div>
-                    <ul class="nav pull-right">
-						<li class="navbar-link"><a href="https://github.com/tuxdevelop">View on Github</a></li>
-                        <li class="navbar-link"><a href="presentations.html">Presentation</a></li>
-                        <li class="navbar-link"><a href="articles.html">Articles</a></li>
-                        <li class="navbar-link"><a href="index.html">Home</a></li>
-                    </ul>
-                </div>
+      <header class="navbar header--navbar desktop-only">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            <div class="spring-logo--container">
+              <a class="spring-logo" href="#">
+                <span></span>
+              </a>
             </div>
-        </header>
+            <div class="spring-logo--container">
+              <a class="spring-boot-logo" href="#">
+                <span></span>
+              </a>
+            </div>
+            <ul class="nav pull-right">
+              <li class="navbar-link"><a href="https://github.com/tuxdevelop">View on Github</a></li>
+              <li class="navbar-link"><a href="presentations.html">Presentation</a></li>
+              <li class="navbar-link"><a href="articles.html">Articles</a></li>
+              <li class="navbar-link"><a href="index.html">Home</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
     </div>
-	<div class="container">
-	    <div class="page-header">
-	          <h1>tuxdevelop.org</h1>
-		</div>	  
-	          <p class="lead">Welcome to tuxdevelop.github.io. On this page you will find stuff all about java. The main goals will be to provide demos and depending slides about enterprise development in the java world.</p>
-	</div>
-</div>	
+    <div class="container">
+      <div class="page-header">
+        <h2>tuxdevelop.org</h2>
+      </div>
+      <div class="container-fluid">
+        <h3>Spring Batch Lightmin 0.1.0 released</h3>
+        For more informations visit on <a href="https://github.com/tuxdevelop/spring-batch-lightmin" />github</a>
+      </p>
+      </div>
+      <div class="container-fluid">
+        <div id="spring-batch-lightmin-slide" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/spring_batch_lightmin/index.png" alt="Welcome Page">
+            </div>
+            <div class="item">
+              <img src="img/spring_batch_lightmin/jobs.png" alt="Job Overview">
+            </div>
+            <div class="item">
+              <img src="img/spring_batch_lightmin/job_instances.png" alt="Job Instances">
+            </div>
+            <div class="item">
+              <img src="img/spring_batch_lightmin/job_instance.png" alt="Job Instance">
+            </div>
+            <div class="item">
+              <img src="img/spring_batch_lightmin/job_execution.png" alt="Job Execution">
+            </div>
+            <div class="item">
+              <img src="img/spring_batch_lightmin/job_configurations.png" alt="Job Configurations">
+            </div>
+            <div class="item">
+              <img src="img/spring_batch_lightmin/job_configuration_add.png" alt="Add Job Configurations">
+            </div>
+            <div class="item">
+              <img src="img/spring_batch_lightmin/job_configuration_edit.png" alt="Edit Job Configurations">
+            </div>
+            <div class="item">
+              <img src="img/spring_batch_lightmin/job_launcher.png" alt="Launch Jobs">
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $('.carousel').carousel({
+      interval: 3000
+    })
+  </script>
 </body>
-</html>	
+
+</html>
